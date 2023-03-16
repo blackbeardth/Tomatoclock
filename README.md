@@ -11,6 +11,6 @@ such as study, writing, or coding. This app is inspired by Pomodoro Technique
 which is a time management method developed by Francesco Cirillo.
 
 ## Requirements
-Tested on Windows 10.
-This program requires Java Runtime Enviorment
+Tested on Windows 10
+This program requires Java Devlopment Kit 19 or higher
 

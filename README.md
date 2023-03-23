@@ -21,6 +21,6 @@ The Pomodoro Technique is created by Francesco Cirillo for a more productive way
 6. Iterate 3-5 until you finish the tasks
 
 ## Requirements
-This program requires Java Devlopment Kit 18 or higher.
+This program requires Java Devlopment Kit 19 or higher.
 Tested on Windows 10
 

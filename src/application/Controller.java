@@ -891,7 +891,6 @@ public class Controller implements Initializable {
 
 		User user = Session.getSession();
 		if (user == null) {
-			System.out.println("session is null");
 			return;
 		}
 		// store total hours

@@ -80,11 +80,11 @@ public class RegistrationController implements Initializable {
 		}
 
 		// Checks if password is strong
-//		if (canRegister && !User.isPasswordStrong(password)) {
-//			canRegister = false;
-//			errorMessage.setText("Password has to have: \n-At least 8 symbols;"
-//					+ "\n-A lowercase letter;\n-An uppercase letter;\n-A number.");
-//		}
+		if (canRegister && !User.isPasswordStrong(password)) {
+			canRegister = false;
+			errorMessage.setText("Password has to have: \n-At least 8 symbols;"
+					+ "\n-A lowercase letter;\n-An uppercase letter;\n-A number.");
+		}
 
 		// Checks if passwords match
 		if (canRegister && !password.equals(passwordRepeat)) {

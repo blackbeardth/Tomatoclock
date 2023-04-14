@@ -89,7 +89,7 @@
             <Font size="15.0" />
          </font>
       </Label>
-      <Label layoutY="428.0" opacity="0.5" prefHeight="21.0" prefWidth="406.0" text="version: 1.0.0-beta" textFill="#f8f8f2">
+      <Label layoutY="428.0" opacity="0.5" prefHeight="21.0" prefWidth="406.0" text="version: 1.0.1-beta" textFill="#f8f8f2">
          <font>
             <Font size="15.0" />
          </font>
@@ -110,13 +110,16 @@
             <Font size="15.0" />
          </font>
       </Hyperlink>
-      <Button fx:id="saveButton" layoutX="153.0" layoutY="539.0" mnemonicParsing="false" onAction="#save" prefHeight="37.0" prefWidth="98.0" style="-fx-background-color: #44475a; -fx-background-radius: 10;" text="SAVE" textFill="#f8f8f2">
+      <Button fx:id="saveButton" layoutX="81.0" layoutY="533.0" mnemonicParsing="false" onAction="#save" prefHeight="37.0" prefWidth="98.0" style="-fx-background-color: #44475a; -fx-background-radius: 10;" text="SAVE" textFill="#f8f8f2">
          <font>
             <Font name="Calibri" size="17.0" />
          </font>
          <effect>
             <DropShadow offsetX="5.0" offsetY="5.0" />
          </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </Button>
       <ImageView fx:id="settingsImageView" fitHeight="29.0" fitWidth="27.0" layoutX="13.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -146,5 +149,16 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </ImageView>
+      <Button fx:id="cancelButton" layoutX="239.0" layoutY="533.0" mnemonicParsing="false" onAction="#cancel" prefHeight="37.0" prefWidth="98.0" style="-fx-background-color: #44475a; -fx-background-radius: 10;" text="CANCEL" textFill="#f8f8f2">
+         <font>
+            <Font name="Calibri" size="17.0" />
+         </font>
+         <effect>
+            <DropShadow offsetX="5.0" offsetY="5.0" />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
    </children>
 </AnchorPane>

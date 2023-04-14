@@ -31,10 +31,12 @@ public class SettingsController implements Initializable {
 	private Hyperlink githubLink;
 
 	@FXML
-	private Button saveButton;
+	private Button saveButton, cancelButton;
 
 	@FXML
 	private ImageView settingsImageView, timerImageView, copyrightImageView, aboutImageView, resetImageView; 
+	
+	private boolean cancel = false; // flag to store if cancel is pressed or not
 	
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
@@ -47,6 +49,10 @@ public class SettingsController implements Initializable {
 		saveButton.setOnMouseEntered(e -> saveButton.setStyle(
 				"-fx-background-color: #bd93f9; -fx-text-fill: #f8f8f2; -fx-font-size: 17.0px; -fx-font-family: Calibri; -fx-background-radius: 10"));
 		saveButton.setOnMouseExited(e -> saveButton.setStyle(
+				"-fx-background-color: #44475a; -fx-text-fill: #f8f8f2; -fx-font-size: 17.0px; -fx-font-family: Calibri; -fx-background-radius: 10"));
+		cancelButton.setOnMouseEntered(e -> cancelButton.setStyle(
+				"-fx-background-color: #bd93f9; -fx-text-fill: #f8f8f2; -fx-font-size: 17.0px; -fx-font-family: Calibri; -fx-background-radius: 10"));
+		cancelButton.setOnMouseExited(e -> cancelButton.setStyle(
 				"-fx-background-color: #44475a; -fx-text-fill: #f8f8f2; -fx-font-size: 17.0px; -fx-font-family: Calibri; -fx-background-radius: 10"));
 	}
 
@@ -67,6 +73,17 @@ public class SettingsController implements Initializable {
 		} catch (Exception e) {
 			return;
 		}
+	}
+	
+	@FXML
+	private void cancel() {
+		cancel = true;
+		Window window = saveButton.getScene().getWindow();
+		((Stage) window).close();
+	}
+	
+	public boolean getCancelStatus() {
+		return cancel;
 	}
 
 	public void setPomoTextField(int inputNumber) {

@@ -43,6 +43,8 @@ public class RegistrationController implements Initializable {
 
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
+		closeButton.setImage(new Image(System.getProperty("user.dir") + "/resources/close_icon.png"));
+		
 		registerButton.setOnMouseEntered(e -> registerButton.setStyle(
 				"-fx-background-color: #bd93f9; -fx-text-fill: #f8f8f2; -fx-font-size: 18.0px; -fx-background-radius: 10; -fx-font-family: Calibri"));
 		registerButton.setOnMouseExited(e -> registerButton.setStyle(

@@ -504,6 +504,10 @@ public class Controller implements Initializable {
 		controller.setAutoPomodoros(autoPomodoros);
 
 		stage.showAndWait();
+		
+		// if cancel was pressed
+		if (controller.getCancelStatus())
+			return;
 
 		POMODORO = (int) controller.getPomoTextField() * 60;
 		SBREAK = (int) controller.getsbreakTextField() * 60;

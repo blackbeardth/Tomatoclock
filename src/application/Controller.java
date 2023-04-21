@@ -306,6 +306,10 @@ public class Controller implements Initializable {
 		pomodoroButton.setStyle("-fx-background-color: #282A36"); // to highlight the currently selected mode
 		sbreakButton.setStyle("-fx-background-color: transparent");
 		lbreakButton.setStyle("-fx-background-color: transparent");
+		mainAnchorPane.setStyle(
+			"-fx-background-color: #282A36; -fx-border-color:  #bd93f9; -fx-border-width: 3;"
+		);
+		myVBox.setStyle("-fx-background-color: #282A36;");
 
 		mode = 1;
 		secondsRemaining = POMODORO;
@@ -324,7 +328,11 @@ public class Controller implements Initializable {
 		pomodoroButton.setStyle("-fx-background-color: transparent");
 		sbreakButton.setStyle("-fx-background-color: #282A36");
 		lbreakButton.setStyle("-fx-background-color: transparent");
-
+		mainAnchorPane.setStyle(
+			"-fx-background-color: #283634; -fx-border-color:  #bd93f9; -fx-border-width: 3;"
+		);
+		myVBox.setStyle("-fx-background-color: #283634;");
+		
 		mode = 2;
 		secondsRemaining = SBREAK;
 		startHasBeenClicked = false;
@@ -342,7 +350,11 @@ public class Controller implements Initializable {
 		pomodoroButton.setStyle("-fx-background-color: transparent");
 		sbreakButton.setStyle("-fx-background-color: transparent");
 		lbreakButton.setStyle("-fx-background-color: #282A36");
-
+		mainAnchorPane.setStyle(
+			"-fx-background-color: #2b3150; -fx-border-color:  #bd93f9; -fx-border-width: 3;"
+		);
+		myVBox.setStyle("-fx-background-color: #2b3150;");
+		
 		mode = 3;
 		secondsRemaining = LBREAK;
 		startHasBeenClicked = false;

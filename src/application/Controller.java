@@ -329,9 +329,9 @@ public class Controller implements Initializable {
 		sbreakButton.setStyle("-fx-background-color: #282A36");
 		lbreakButton.setStyle("-fx-background-color: transparent");
 		mainAnchorPane.setStyle(
-			"-fx-background-color: #283634; -fx-border-color:  #bd93f9; -fx-border-width: 3;"
+			"-fx-background-color: #36464e; -fx-border-color:  #bd93f9; -fx-border-width: 3;"
 		);
-		myVBox.setStyle("-fx-background-color: #283634;");
+		myVBox.setStyle("-fx-background-color: #36464e;");
 		
 		mode = 2;
 		secondsRemaining = SBREAK;
@@ -351,9 +351,9 @@ public class Controller implements Initializable {
 		sbreakButton.setStyle("-fx-background-color: transparent");
 		lbreakButton.setStyle("-fx-background-color: #282A36");
 		mainAnchorPane.setStyle(
-			"-fx-background-color: #2b3150; -fx-border-color:  #bd93f9; -fx-border-width: 3;"
+			"-fx-background-color: #2b5470; -fx-border-color:  #bd93f9; -fx-border-width: 3;"
 		);
-		myVBox.setStyle("-fx-background-color: #2b3150;");
+		myVBox.setStyle("-fx-background-color: #2b5470;");
 		
 		mode = 3;
 		secondsRemaining = LBREAK;

@@ -34,23 +34,23 @@
             <Font name="Arial Rounded MT Bold" size="15.0" />
          </font>
       </CheckBox>
-      <Button fx:id="loginButton" layoutX="152.0" layoutY="450.0" mnemonicParsing="false" onAction="#loginClicked" prefHeight="48.0" prefWidth="113.0" style="-fx-background-color: #44475A; -fx-background-radius: 10;" text="Login" textAlignment="CENTER" textFill="#f8f8f2">
+      <Button fx:id="loginButton" layoutX="152.0" layoutY="450.0" mnemonicParsing="false" onAction="#loginClicked" prefHeight="48.0" prefWidth="129.0" style="-fx-background-color: #44475A; -fx-background-radius: 10;" text="Login" textAlignment="CENTER" textFill="#f8f8f2">
          <font>
-            <Font name="Calibri" size="20.0" />
+            <Font name="Calibri" size="18.0" />
          </font>
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="registerButton" layoutX="357.0" layoutY="450.0" mnemonicParsing="false" onAction="#registerClicked" prefHeight="48.0" prefWidth="113.0" style="-fx-background-color: #44475A; -fx-background-radius: 10;" text="Register" textAlignment="CENTER" textFill="#f8f8f2">
+      <Button fx:id="registerButton" layoutX="343.0" layoutY="450.0" mnemonicParsing="false" onAction="#registerClicked" prefHeight="48.0" prefWidth="129.0" style="-fx-background-color: #44475A; -fx-background-radius: 10;" text="Go to Register" textAlignment="CENTER" textFill="#f8f8f2">
          <font>
-            <Font name="Calibri" size="20.0" />
+            <Font name="Calibri" size="18.0" />
          </font>
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Label fx:id="errorMessage" alignment="TOP_LEFT" layoutX="154.0" layoutY="535.0" prefHeight="104.0" prefWidth="318.0" style="-fx-wrap-text: true;" textFill="#ff5555">
+      <Label fx:id="errorMessage" alignment="TOP_LEFT" layoutX="154.0" layoutY="535.0" prefHeight="212.0" prefWidth="318.0" style="-fx-wrap-text: true;" textFill="#ff5555">
          <font>
             <Font name="Calibri" size="25.0" />
          </font>

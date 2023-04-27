@@ -47,13 +47,13 @@ public class LoginController implements Initializable {
 		closeButton.setImage(new Image(System.getProperty("user.dir") + "/resources/close_icon.png"));
 
 		loginButton.setOnMouseEntered(e -> loginButton.setStyle(
-				"-fx-background-color: #bd93f9; -fx-text-fill: #f8f8f2; -fx-font-size:20.0px; -fx-font-family: Calibri;-fx-background-radius: 10"));
+				"-fx-background-color: #bd93f9; -fx-text-fill: #f8f8f2; -fx-font-size:18.0px; -fx-font-family: Calibri;-fx-background-radius: 10"));
 		loginButton.setOnMouseExited(e -> loginButton.setStyle(
-				"-fx-background-color: #44475a; -fx-text-fill: #f8f8f2; -fx-font-size:20.0px; -fx-font-family: Calibri;-fx-background-radius: 10"));
+				"-fx-background-color: #44475a; -fx-text-fill: #f8f8f2; -fx-font-size:18.0px; -fx-font-family: Calibri;-fx-background-radius: 10"));
 		registerButton.setOnMouseEntered(e -> registerButton.setStyle(
-				"-fx-background-color: #bd93f9; -fx-text-fill: #f8f8f2; -fx-font-size:20.0px; -fx-font-family: Calibri;-fx-background-radius: 10"));
+				"-fx-background-color: #bd93f9; -fx-text-fill: #f8f8f2; -fx-font-size:18.0px; -fx-font-family: Calibri;-fx-background-radius: 10"));
 		registerButton.setOnMouseExited(e -> registerButton.setStyle(
-				"-fx-background-color: #44475a; -fx-text-fill: #f8f8f2; -fx-font-size:20.0px; -fx-font-family: Calibri;-fx-background-radius: 10"));
+				"-fx-background-color: #44475a; -fx-text-fill: #f8f8f2; -fx-font-size:18.0px; -fx-font-family: Calibri;-fx-background-radius: 10"));
 
 	}
 

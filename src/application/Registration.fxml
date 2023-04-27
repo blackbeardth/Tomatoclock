@@ -28,12 +28,12 @@
             <Font name="Arial" size="16.0" />
          </font>
       </PasswordField>
-      <PasswordField fx:id="repeatPasswordField" layoutX="153.0" layoutY="388.0" onKeyPressed="#keyPressed" prefHeight="48.0" prefWidth="318.0" promptText="repeat password" style="-fx-border-style: solid; -fx-border-width: 3; -fx-border-radius: 10; -fx-background-color: transparent; -fx-border-color: white; -fx-text-fill: white;">
+      <PasswordField fx:id="repeatPasswordField" layoutX="152.0" layoutY="387.0" onKeyPressed="#keyPressed" prefHeight="48.0" prefWidth="318.0" promptText="repeat password" style="-fx-border-style: solid; -fx-border-width: 3; -fx-border-radius: 10; -fx-background-color: transparent; -fx-border-color: white; -fx-text-fill: white;">
          <font>
             <Font name="Arial" size="16.0" />
          </font>
       </PasswordField>
-      <Button fx:id="registerButton" layoutX="152.0" layoutY="463.0" mnemonicParsing="false" onAction="#registerClicked" onKeyPressed="#keyPressed" prefHeight="48.0" prefWidth="113.0" style="-fx-background-color: #44475a; -fx-background-radius: 10;" text="Register" textAlignment="CENTER" textFill="#f8f8f2">
+      <Button fx:id="registerButton" layoutX="160.0" layoutY="473.0" mnemonicParsing="false" onAction="#registerClicked" onKeyPressed="#keyPressed" prefHeight="48.0" prefWidth="113.0" style="-fx-background-color: #44475a; -fx-background-radius: 10;" text="Register" textAlignment="CENTER" textFill="#f8f8f2">
          <font>
             <Font name="Calibri" size="18.0" />
          </font>
@@ -41,12 +41,12 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Label fx:id="errorMessage" alignment="TOP_LEFT" layoutX="152.0" layoutY="539.0" prefHeight="161.0" prefWidth="318.0" style="-fx-wrap-text: true;" textFill="#ff5555">
+      <Label fx:id="errorMessage" alignment="TOP_LEFT" layoutX="152.0" layoutY="539.0" prefHeight="212.0" prefWidth="318.0" style="-fx-wrap-text: true;" textFill="#ff5555">
          <font>
             <Font name="Calibri" size="25.0" />
          </font>
       </Label>
-      <Button fx:id="goToLoginButton" layoutX="358.0" layoutY="463.0" mnemonicParsing="false" onAction="#goToLogin" onKeyPressed="#keyPressed" prefHeight="48.0" prefWidth="113.0" style="-fx-background-color: #44475a; -fx-background-radius: 10;" text="Go to Login" textAlignment="CENTER" textFill="#f8f8f2">
+      <Button fx:id="goToLoginButton" layoutX="357.0" layoutY="473.0" mnemonicParsing="false" onAction="#goToLogin" onKeyPressed="#keyPressed" prefHeight="48.0" prefWidth="113.0" style="-fx-background-color: #44475a; -fx-background-radius: 10;" text="Go to Login" textAlignment="CENTER" textFill="#f8f8f2">
          <font>
             <Font name="Calibri" size="18.0" />
          </font>

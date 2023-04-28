@@ -25,8 +25,8 @@ This program requires Java Devlopment Kit 17 or higher.
 Tested on Windows 10
 
 ## User Interface
-![java_aWjsbpFb3j](https://user-images.githubusercontent.com/70256225/235187892-89aa5f74-3daa-4852-ab2f-b2828f9eae69.png)
+![java_Rc8Z5lt61F](https://user-images.githubusercontent.com/70256225/235267864-db50e75c-8313-49d5-9391-1c5b3f85a830.png)
 ![java_ODKZXrp3Ej](https://user-images.githubusercontent.com/70256225/235187988-b5291aae-53b6-4c92-96d2-29ab579b9fdc.png)
-![java_8JlsPNVkM3](https://user-images.githubusercontent.com/70256225/235188002-6cf0713b-84c2-4945-85e4-210541e5e1d8.png)
+![java_TBLhDiFbdJ](https://user-images.githubusercontent.com/70256225/235267895-89205213-db37-47da-afc8-eb9868be675f.png)
 ![java_VY6E1DDDVF](https://user-images.githubusercontent.com/70256225/235188013-41c6e436-d387-4e5b-b2a5-da23271c30ef.png)
 ![java_ZdByesdOfV](https://user-images.githubusercontent.com/70256225/235188016-30903656-9e96-41cc-b1b4-efb39288e375.png)

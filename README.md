@@ -24,3 +24,8 @@ The Pomodoro Technique is created by Francesco Cirillo for a more productive way
 This program requires Java Devlopment Kit 17 or higher.
 Tested on Windows 10
 
+![java_aWjsbpFb3j](https://user-images.githubusercontent.com/70256225/235187892-89aa5f74-3daa-4852-ab2f-b2828f9eae69.png)
+![java_ODKZXrp3Ej](https://user-images.githubusercontent.com/70256225/235187988-b5291aae-53b6-4c92-96d2-29ab579b9fdc.png)
+![java_8JlsPNVkM3](https://user-images.githubusercontent.com/70256225/235188002-6cf0713b-84c2-4945-85e4-210541e5e1d8.png)
+![java_VY6E1DDDVF](https://user-images.githubusercontent.com/70256225/235188013-41c6e436-d387-4e5b-b2a5-da23271c30ef.png)
+![java_ZdByesdOfV](https://user-images.githubusercontent.com/70256225/235188016-30903656-9e96-41cc-b1b4-efb39288e375.png)

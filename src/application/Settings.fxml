@@ -105,7 +105,7 @@
             <Font size="15.0" />
          </font>
       </Label>
-      <Hyperlink fx:id="githubLink" focusTraversable="false" layoutX="79.0" layoutY="480.0" onAction="#showGithubLink" prefHeight="29.0" prefWidth="320.0" text="https://github.com/blackbeardth/Tomatoclock" textFill="#00dbf8">
+      <Hyperlink fx:id="githubLink" focusTraversable="false" layoutX="79.0" layoutY="480.0" onAction="#showGithubLink" prefHeight="29.0" prefWidth="320.0" text="https://github.com/chiragwad/Tomatoclock" textFill="#00dbf8">
          <font>
             <Font size="15.0" />
          </font>

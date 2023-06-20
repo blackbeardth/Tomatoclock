@@ -59,7 +59,7 @@ public class SettingsController implements Initializable {
 	@FXML
 	private void showGithubLink() throws IOException {
 		Desktop desktop = Desktop.getDesktop();
-		desktop.browse(java.net.URI.create("https://github.com/blackbeardth/Tomatoclock"));
+		desktop.browse(java.net.URI.create("https://github.com/chiragwad/Tomatoclock"));
 	}
 
 	@FXML

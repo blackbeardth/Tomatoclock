@@ -25,7 +25,7 @@ This program requires Java Devlopment Kit 17 or higher.
 Tested on Windows 10
 
 ## Extensive Documentation
-[Documentation]([https://link-url-here.org](https://github.com/chiragwad/Tomatoclock/blob/main/Documentation.pdf))
+[Documentation](https://github.com/chiragwad/Tomatoclock/blob/main/Documentation.pdf)
 
 ## User Interface
 ![java_Rc8Z5lt61F](https://user-images.githubusercontent.com/70256225/235267864-db50e75c-8313-49d5-9391-1c5b3f85a830.png)

@@ -24,7 +24,7 @@ The Pomodoro Technique is created by Francesco Cirillo for a more productive way
 This program requires Java Devlopment Kit 17 or higher.
 Tested on Windows 10
 
-## Extensive Documentation
+## Documentation
 [Documentation](https://github.com/chiragwad/Tomatoclock/blob/main/Documentation.pdf)
 
 ## User Interface

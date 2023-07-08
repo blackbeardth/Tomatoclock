@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainAnchorPane" prefHeight="980.0" prefWidth="600.0" style="-fx-background-color: #282A36; -fx-border-color: #bd93f9; -fx-border-width: 3;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <AnchorPane layoutX="66.0" layoutY="141.0" prefHeight="292.0" prefWidth="467.0" style="-fx-background-radius: 10; -fx-background-color: #44475A;">
+         <children>
+            <Button fx:id="lbreakButton" cache="true" cacheHint="SPEED" layoutX="300.0" layoutY="15.0" mnemonicParsing="false" onAction="#modeLongBreak" style="-fx-background-color: transparent; -fx-background-radius: 10;" text="Long Break" textFill="#ff5555">
+               <font>
+                  <Font name="Calibri" size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="sbreakButton" layoutX="179.0" layoutY="15.0" mnemonicParsing="false" onAction="#modeShortBreak" style="-fx-background-color: transparent; -fx-background-radius: 10;" text="Short Break" textFill="#ff5555">
+               <font>
+                  <Font name="Calibri" size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="pomodoroButton" layoutX="67.0" layoutY="15.0" mnemonicParsing="false" onAction="#modePomodoro" style="-fx-background-color: #282A36; -fx-background-radius: 10;" text="Pomodoro" textFill="#ff5555">
+               <font>
+                  <Font name="Calibri" size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Label fx:id="timerLabel" alignment="CENTER" layoutX="4.0" layoutY="57.0" prefHeight="114.0" prefWidth="475.0" stylesheets="@application.css" text="25:00" textFill="#f8f8f2">
+               <font>
+                  <Font name="Calibri" size="125.0" />
+               </font>
+            </Label>
+            <Button fx:id="startButton" layoutX="158.0" layoutY="211.0" mnemonicParsing="false" onAction="#start" prefHeight="52.0" prefWidth="167.0" style="-fx-background-color: #282A36; -fx-background-radius: 10;" text="START" textFill="#50fa7b">
+               <font>
+                  <Font name="Calibri" size="25.0" />
+               </font>
+               <effect>
+                  <DropShadow offsetX="5.0" offsetY="5.0" />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Line endX="450.0" layoutX="128.0" layoutY="99.0" startX="-102.5" strokeWidth="0.5" />
+      <Button fx:id="reportButton" layoutX="312.0" layoutY="54.0" mnemonicParsing="false" onAction="#report" prefHeight="35.0" prefWidth="80.0" style="-fx-background-color: #44475A; -fx-background-radius: 10;" text="Report" textFill="#f8f8f2">
+         <font>
+            <Font name="Calibri" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="settingsButton" layoutX="402.0" layoutY="54.0" mnemonicParsing="false" onAction="#settings" prefHeight="35.0" prefWidth="80.0" style="-fx-background-color: #44475A; -fx-background-radius: 10;" text="Settings" textFill="#f8f8f2">
+         <font>
+            <Font name="Calibri" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="loginButton" layoutX="493.0" layoutY="54.0" mnemonicParsing="false" onAction="#login" prefHeight="35.0" prefWidth="80.0" style="-fx-background-color: #44475A; -fx-background-radius: 10;" text="Login" textFill="#f8f8f2">
+         <font>
+            <Font name="Calibri" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label alignment="CENTER_RIGHT" layoutX="66.0" layoutY="55.0" prefHeight="43.0" prefWidth="135.0" text="Tomatoclock" textFill="#f8f8f2">
+         <font>
+            <Font name="Calibri" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="messageLabel" alignment="CENTER" layoutY="490.0" prefHeight="30.0" prefWidth="600.0" text="Time to focus!" textFill="#f1fa8c">
+         <font>
+            <Font name="Calibri" size="25.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="tomatoImageView" fitHeight="41.0" fitWidth="63.0" layoutX="25.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/tomato.png" />
+         </image>
+      </ImageView>
+      <Line endX="450.0" layoutX="126.0" layoutY="571.0" startX="-100.0" strokeWidth="0.5" />
+      <Label layoutX="75.0" layoutY="518.0" text="Tasks" textFill="#bd93f9">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="addTaskButton" layoutX="26.0" layoutY="585.0" mnemonicParsing="false" onAction="#addTask" opacity="0.25" prefHeight="52.0" prefWidth="551.0" style="-fx-background-color: #000000; -fx-background-radius: 10;" stylesheets="@application.css" text="+ Add Task" textFill="#f8f8f2">
+         <font>
+            <Font name="Calibri" size="25.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <MenuButton fx:id="menuButton" contentDisplay="CENTER" graphicTextGap="1.0" layoutX="541.0" layoutY="522.0" maxHeight="29.0" maxWidth="27.0" minHeight="29.0" minWidth="27.0" mnemonicParsing="false" popupSide="LEFT" prefHeight="29.0" prefWidth="27.0" style="-fx-background-color: transparent;" stylesheets="@application.css" textFill="#bd93f9">
+        <items>
+            <MenuItem mnemonicParsing="false" onAction="#modifyCurrentTask" style="-fx-text-fill: #000000; -fx-font-family: Calibri; -fx-font-size: 15;" text="Modify current task" />
+            <MenuItem mnemonicParsing="false" onAction="#markAsCompleted" style="-fx-text-fill: #000000; -fx-font-family: Calibri; -fx-font-size: 15;" text="Mark as completed" />
+            <MenuItem mnemonicParsing="false" onAction="#markAsIncomplete" style="-fx-text-fill: #000000; -fx-font-family: Calibri; -fx-font-size: 15;" text="Mark as incomplete" />
+            <MenuItem mnemonicParsing="false" onAction="#saveAsTemplate" style="-fx-text-fill: #000000; -fx-font-family: Calibri; -fx-font-size: 15;" text="Save as template" />
+            <MenuItem mnemonicParsing="false" onAction="#addFromTemplate" style="-fx-text-fill: #000000; -fx-font-family: Calibri; -fx-font-size: 15;" text="Add from template" />
+            <MenuItem mnemonicParsing="false" onAction="#clearCurrentTask" style="-fx-text-fill: #000000; -fx-font-family: Calibri; -fx-font-size: 15;" text="Clear current task" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+          <MenuItem mnemonicParsing="false" onAction="#clearAllTasks" style="-fx-text-fill: #000000; -fx-font-family: Calibri; -fx-font-size: 15;" text="Clear all tasks" />
+        </items>
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </MenuButton>
+      <Button fx:id="pomodoroCountButton" layoutX="270.0" layoutY="444.0" mnemonicParsing="false" onAction="#resetPomodoroCount" prefHeight="46.0" prefWidth="60.0" style="-fx-background-color: transparent;" text="#0" textFill="#f8f8f2">
+         <font>
+            <Font name="Calibri" size="25.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ScrollPane hbarPolicy="NEVER" layoutX="30.0" layoutY="651.0" prefHeight="317.0" prefWidth="545.0" style="-fx-background-color: transparent;" stylesheets="@application.css">
+         <content>
+            <VBox fx:id="myVBox" prefHeight="315.0" prefWidth="545.0" spacing="5.0" style="-fx-background-color: #282A36;" />
+         </content>
+      </ScrollPane>
+      <ImageView fx:id="taskImageView" fitHeight="43.0" fitWidth="41.0" layoutX="30.0" layoutY="516.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/schedule_icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="closeButton" fitHeight="29.0" fitWidth="27.0" layoutX="573.0" layoutY="7.0" onMouseClicked="#closeClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/close_icon.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="minimizeButton" fitHeight="29.0" fitWidth="27.0" layoutX="542.0" layoutY="7.0" onMouseClicked="#minimizeClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/minimize_icon.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+   </children>
+</AnchorPane>
